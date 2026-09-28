@@ -1,5 +1,3 @@
-# Interpreting Latent Reasoning in CODI Model
-
 ## Introduction
 
 As the AI models get better at long horizon tasks, we see people trusting the LLMs with long range tasks and permissions across the board. These often include permissions for destructive tasks as well and the outcome hasn’t always been smooth. In December 2025, AWS Cost Explorer experienced a 13 hour outage due to the internal AI tool kiro having broad permissions. It decided the effective way to solve the task at hand was to remove the environment and build it from scratch. The recent Open AI’s model’s attack on hugging face underscores it too. This begs the question of liability. How can we use these tools effectively if we can’t understand the reasoning behind the actions in a short time. There is an impetus to understand the reasoning behind these models. Could we monitor their reasoning and catch/prevent such events? With LLMs increasingly moving their reasoning from chain of thought to latent space, can we identify the reasoning behind their actions/answers? 
